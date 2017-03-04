@@ -12,15 +12,21 @@ A complete demonstration of user authentication with `devise_token_auth` for Rai
 
 This is a simple RESTful API app that requires authentication to perform actions on a list of `Item`s.
 
-### Installation
+### Usage
 
+Installation:
 ```
 git clone https://github.com/b-ggs/rails5-api-devise-token-auth-demo.git
 cd rails5-api-devise-token-auth-demo
 bundle install
 ```
 
-### Sample Usage
+Run specs:
+```
+bundle exec rspec
+```
+
+### Tutorial
 
 First, start by running the server.
 
